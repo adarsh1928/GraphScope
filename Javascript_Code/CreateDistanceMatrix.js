@@ -15,7 +15,8 @@ export function creatDistanceMatrix() {
 		return costOf;
 	}
 	else
-	{	console.log("Error");
+	{	
+		// console.log("Error");
 		isErrorOccure=true;
 		return;
 	}

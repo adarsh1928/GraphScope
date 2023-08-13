@@ -25,7 +25,7 @@ export function BFS() {
 		animateThisCells.push([cell, "visited"]);
 		if ((i == endCell[0] && j == endCell[1]) == false) {
 			if (isErrorOccure == true) {
-				console.log("Error");
+				// console.log("Error");
 				break;
 			}
 			var answer = getNextValidBlock(i, j); //if it not a answer then generating alll the valid walk from that point every time

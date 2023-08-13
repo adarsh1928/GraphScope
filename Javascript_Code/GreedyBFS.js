@@ -19,7 +19,7 @@ export function greedyBestFirstSearch() {
 
 	// isInProcess = true;
 	if (isErrorOccure == true) {
-		console.log("Error");
+		// console.log("Error");
 		return;
 	}
 
@@ -109,7 +109,7 @@ export function greedyBestFirstSearch() {
 		animateThisCells.push([endCell, "success"]);
 		if (isErrorOccure == true) {
 
-			console.log("Error Occured");
+			// console.log("Error Occured");
 		}
 		while (prev[i][j] != null && isErrorOccure == false) {
 

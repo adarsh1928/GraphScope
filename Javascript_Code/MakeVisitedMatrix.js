@@ -3,8 +3,9 @@ import {isInProcess,TotalR,TotalC,isCellisAWall} from "./script.js"
 
 export function makeVisitedMatrix() {
     var ans = [];
-	var cells = $("#tableContainer").find("td");
-	console.log("PRINTING THE ALL CELLS",cells);
+	var cells = document.querySelectorAll("#tableContainer td");
+
+	// console.log("PRINTING THE ALL CELLS",cells);
 	for (var i = 1; i<=TotalR&&isInProcess==true; i++) 
 	{
 		var row = [];

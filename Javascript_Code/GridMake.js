@@ -2,7 +2,7 @@
 
 
 export function gridMake(rows, cols) {
-	console.log("OK");
+	// console.log("OK");
 	var grid = "";
 	for (let row = rows; row >=1 ; row--) {
 		grid += "<tr>";

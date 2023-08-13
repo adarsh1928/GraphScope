@@ -182,11 +182,11 @@ tdElements.forEach(td => {
 				shiftEndOrStart(startIndex, index, "start");
 			} else if (isEndMoving && index !== startIndex) {
 				// If end cell is moving and the current index is not the start index, shift the end cell
-				console.log("this is executed");
+				// console.log("this is executed");
 				shiftEndOrStart(endIndex, index, "end");
 			} else if (index !== startIndex && index !== endIndex) {
 				// If not moving start/end cells, toggle the wall class for the current td element
-				console.log("mid");
+				// console.log("mid");
 				this.classList.toggle("wall");
 			}
 		} else {

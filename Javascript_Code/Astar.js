@@ -114,7 +114,7 @@ export function AStar() {
 
 			while (prev[i][j] != null) {
 				if (isErrorOccure == true) {
-					console.log("Error");
+					// console.log("Error");
 				}
 				var prevCell = prev[i][j];
 				i = prevCell[0];

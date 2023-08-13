@@ -2,7 +2,8 @@ import { isInProcess,isErrorOccure } from "./script.js";
 
 export function countLength() {
 	//iN The jquery after $(id) we can get all the cells 
-	var cells = $("td");
+	var cells = document.querySelectorAll("td");
+
 	var ans = 0;
 	if(isInProcess==true)
 	{

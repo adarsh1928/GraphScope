@@ -4,7 +4,7 @@ import {isInProcess,algorithm} from "./script.js"
 export function updateButtonText() {
     if (isInProcess === false) {
         if (algorithm === "Depth-First Search (DFS)") {
-            console.log("okokokoko");
+            // console.log("okokokoko");
             document.getElementById("startBtn").innerHTML = "Start DFS";
         } else if (algorithm === "Dijkstra") {
             document.getElementById("startBtn").innerHTML = "Start Dijkstra";
