@@ -5,13 +5,11 @@ import { showResult } from "./ShowResult.js";
 import { BFS } from "./BFS.js";
 import { DFS } from "./DFS.js";
 import { AStar } from "./Astar.js";
-import { creatDistanceMatrix } from "./CreateDistanceMatrix.js";
-import { minHeap } from "./MinHeap.js";
+
 import { dijkstra } from "./Dijsktra.js";
-import { Queue } from "./Queue.js";
+
 import { greedyBestFirstSearch } from "./GreedyBFS.js";
 import { updateSpeedDisplay } from "./UpdateSpeed.js";
-import getNextValidBlock from "./getNextValidBlock.js";
 import { gridMake } from "./GridMake.js"
 import { ClearBoard } from "./ClearBoard.js"
 import { updateButtonText } from "./updateButtonText.js"
